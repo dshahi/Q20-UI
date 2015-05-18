@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="200237" started-at="2015-04-15T05:29:13Z" finished-at="2015-04-15T05:32:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="200237" started-at="2015-04-15T05:29:13Z" finished-at="2015-04-15T05:32:33Z">
+      <class name="com.q2o.suiteSFDC.TransactionalQuote">
+        <test-method status="FAIL" signature="transactionalQuote(java.util.Hashtable)[pri:0, instance:com.q2o.suiteSFDC.TransactionalQuote@6615435c]" name="transactionalQuote" duration-ms="198351" started-at="2015-04-14T22:29:15Z" data-provider="suiteSFDCDataProvider" finished-at="2015-04-14T22:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=Y, BuyMethod=Cisco, DealName=SFDC_OPTY_1, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failure - No such Element presentintendeduse_xpath]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failure - No such Element presentintendeduse_xpath
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.q2o.base.TestBase.element(TestBase.java:178)
+	at com.q2o.base.TestBase.click(TestBase.java:193)
+	at com.q2o.base.TestBase.ccwDropdown(TestBase.java:396)
+	at com.q2o.suiteSFDC.TransactionalQuote.transactionalQuote(TransactionalQuote.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionalQuote -->
+        <test-method status="SKIP" signature="transactionalQuote(java.util.Hashtable)[pri:0, instance:com.q2o.suiteSFDC.TransactionalQuote@6615435c]" name="transactionalQuote" duration-ms="154" started-at="2015-04-14T22:32:33Z" data-provider="suiteSFDCDataProvider" finished-at="2015-04-14T22:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Browser=Mozilla, password=cisco123, userid=hsakamot@cisco.com.mon, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=N, BuyMethod=Cisco, DealName=SFDC_OPTY_1, Competitor_2=Accton Technology, InstallBase=Not Transformative Networking (IBLM), Competitor_1=Acano, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test :TransactionalQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test :TransactionalQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+	at com.q2o.base.TestBase.validateRunmodes(TestBase.java:80)
+	at com.q2o.suiteSFDC.TransactionalQuote.transactionalQuote(TransactionalQuote.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionalQuote -->
+      </class> <!-- com.q2o.suiteSFDC.TransactionalQuote -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

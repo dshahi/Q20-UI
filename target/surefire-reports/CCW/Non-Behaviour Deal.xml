@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="VINU" name="com.q2o.suiteCCW.Non_BehaviourDeal" tests="2" failures="1" timestamp="18 May 2015 01:43:43 GMT" time="84.245" errors="0">
+  <testcase name="non_behaviourDeal" time="84.043" classname="com.q2o.suiteCCW.Non_BehaviourDeal">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;Cisco.com Login Page&amp;gt; but was:&amp;lt;Problem loading page&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<Cisco.com Login Page> but was:<Problem loading page>
+	at com.q2o.base.TestBase.navigateCCW(TestBase.java:125)
+	at com.q2o.base.TestBase.ccwLogin(TestBase.java:379)
+	at com.q2o.suiteCCW.Non_BehaviourDeal.non_behaviourDeal(Non_BehaviourDeal.java:21)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 32 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="non_behaviourDeal" time="0.13" classname="com.q2o.suiteCCW.Non_BehaviourDeal">
+    <skipped/>
+  </testcase>
+</testsuite>

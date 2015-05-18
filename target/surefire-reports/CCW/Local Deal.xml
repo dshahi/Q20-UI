@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="VINU" name="com.q2o.suiteCCW.LocalDeal" tests="2" failures="0" timestamp="18 May 2015 01:42:19 GMT" time="0.361" errors="0">
+  <testcase name="localDeal" time="0.1" classname="com.q2o.suiteCCW.LocalDeal">
+    <skipped/>
+  </testcase>
+  <testcase name="localDeal" time="0.126" classname="com.q2o.suiteCCW.LocalDeal">
+    <skipped/>
+  </testcase>
+</testsuite>

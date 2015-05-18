@@ -1,0 +1,68 @@
+04/19/2015 22:44:04 devpinoyLogger Start Executing  : behaviourDeal
+04/19/2015 22:44:04 devpinoyLogger Validating Run Mode of test BehaviourDeal in suiteCCW
+04/19/2015 22:44:05 devpinoyLogger Skipping test case :BehaviourDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:05 devpinoyLogger Skipped TC : behaviourDeal
+04/19/2015 22:44:05 devpinoyLogger Start Executing  : behaviourDeal
+04/19/2015 22:44:05 devpinoyLogger Validating Run Mode of test BehaviourDeal in suiteCCW
+04/19/2015 22:44:05 devpinoyLogger Skipping test case :BehaviourDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:05 devpinoyLogger Skipped TC : behaviourDeal
+04/19/2015 22:44:05 devpinoyLogger Start Executing  : globalDeal
+04/19/2015 22:44:05 devpinoyLogger Validating Run Mode of test GlobalDeal in suiteCCW
+04/19/2015 22:44:05 devpinoyLogger Skipping test case :GlobalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:05 devpinoyLogger Skipped TC : globalDeal
+04/19/2015 22:44:05 devpinoyLogger Start Executing  : globalDeal
+04/19/2015 22:44:05 devpinoyLogger Validating Run Mode of test GlobalDeal in suiteCCW
+04/19/2015 22:44:05 devpinoyLogger Skipping test case :GlobalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:05 devpinoyLogger Skipped TC : globalDeal
+04/19/2015 22:44:05 devpinoyLogger Start Executing  : globalDeal
+04/19/2015 22:44:05 devpinoyLogger Validating Run Mode of test GlobalDeal in suiteCCW
+04/19/2015 22:44:05 devpinoyLogger Skipping test case :GlobalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:05 devpinoyLogger Skipped TC : globalDeal
+04/19/2015 22:44:06 devpinoyLogger Start Executing  : localDeal
+04/19/2015 22:44:06 devpinoyLogger Validating Run Mode of test LocalDeal in suiteCCW
+04/19/2015 22:44:06 devpinoyLogger Skipping test case :LocalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:06 devpinoyLogger Skipped TC : localDeal
+04/19/2015 22:44:06 devpinoyLogger Start Executing  : localDeal
+04/19/2015 22:44:06 devpinoyLogger Validating Run Mode of test LocalDeal in suiteCCW
+04/19/2015 22:44:06 devpinoyLogger Skipping test case :LocalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:06 devpinoyLogger Skipped TC : localDeal
+04/19/2015 22:44:06 devpinoyLogger Start Executing  : non_behaviourDeal
+04/19/2015 22:44:06 devpinoyLogger Validating Run Mode of test Non_BehaviourDeal in suiteCCW
+04/19/2015 22:44:17 devpinoyLogger MozillaBrowser name incorrect
+04/19/2015 22:44:32 devpinoyLogger Failed TC : non_behaviourDeal
+04/19/2015 22:44:32 devpinoyLogger Start Executing  : non_behaviourDeal
+04/19/2015 22:44:32 devpinoyLogger Validating Run Mode of test Non_BehaviourDeal in suiteCCW
+04/19/2015 22:44:32 devpinoyLogger Skipping test case :Non_BehaviourDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:32 devpinoyLogger Skipped TC : non_behaviourDeal
+04/19/2015 22:44:32 devpinoyLogger Start Executing  : rnsdQuote
+04/19/2015 22:44:32 devpinoyLogger Validating Run Mode of test RNSDQuote in suiteSFDC
+04/19/2015 22:44:32 devpinoyLogger Skipping test case :RNSDQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:32 devpinoyLogger Skipped TC : rnsdQuote
+04/19/2015 22:44:32 devpinoyLogger Start Executing  : rnsdQuote
+04/19/2015 22:44:32 devpinoyLogger Validating Run Mode of test RNSDQuote in suiteSFDC
+04/19/2015 22:44:33 devpinoyLogger Skipping test case :RNSDQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:33 devpinoyLogger Skipped TC : rnsdQuote
+04/19/2015 22:44:33 devpinoyLogger Start Executing  : transactionalQuote
+04/19/2015 22:44:33 devpinoyLogger Validating Run Mode of test TransactionalQuote in suiteSFDC
+04/19/2015 22:44:41 devpinoyLogger MozillaBrowser name incorrect
+04/19/2015 22:44:46 devpinoyLogger Failed TC : transactionalQuote
+04/19/2015 22:44:46 devpinoyLogger Start Executing  : transactionalQuote
+04/19/2015 22:44:46 devpinoyLogger Validating Run Mode of test TransactionalQuote in suiteSFDC
+04/19/2015 22:44:46 devpinoyLogger Skipping test case :TransactionalQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:46 devpinoyLogger Skipped TC : transactionalQuote
+04/19/2015 22:44:46 devpinoyLogger Start Executing  : astQuoteImport
+04/19/2015 22:44:46 devpinoyLogger Validating Run Mode of test ASTQuoteImport in suiteSFDC
+04/19/2015 22:44:54 devpinoyLogger MozillaBrowser name incorrect
+04/19/2015 22:44:56 devpinoyLogger Failed TC : astQuoteImport
+04/19/2015 22:44:56 devpinoyLogger Start Executing  : astQuoteImport
+04/19/2015 22:44:56 devpinoyLogger Validating Run Mode of test ASTQuoteImport in suiteSFDC
+04/19/2015 22:44:57 devpinoyLogger Skipping test case :ASTQuoteImport - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:44:57 devpinoyLogger Skipped TC : astQuoteImport
+04/19/2015 22:44:57 devpinoyLogger Start Executing  : assQuoteImport
+04/19/2015 22:44:57 devpinoyLogger Validating Run Mode of test ASSQuoteImport in suiteSFDC
+04/19/2015 22:45:05 devpinoyLogger MozillaBrowser name incorrect
+04/19/2015 22:45:07 devpinoyLogger Failed TC : assQuoteImport
+04/19/2015 22:45:07 devpinoyLogger Start Executing  : assQuoteImport
+04/19/2015 22:45:07 devpinoyLogger Validating Run Mode of test ASSQuoteImport in suiteSFDC
+04/19/2015 22:45:07 devpinoyLogger Skipping test case :ASSQuoteImport - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No
+04/19/2015 22:45:07 devpinoyLogger Skipped TC : assQuoteImport

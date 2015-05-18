@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="VINU" name="com.q2o.suiteSFDC.ASSQuoteImport" tests="2" failures="1" timestamp="18 May 2015 01:45:01 GMT" time="23.487" errors="0">
+  <testcase name="assQuoteImport" time="23.372" classname="com.q2o.suiteSFDC.ASSQuoteImport">
+    <failure type="java.lang.AssertionError" message="Failure - No such Element presentopportunityTab_xpath">
+      <![CDATA[java.lang.AssertionError: Failure - No such Element presentopportunityTab_xpath
+	at com.q2o.base.TestBase.element(TestBase.java:175)
+	at com.q2o.base.TestBase.click(TestBase.java:190)
+	at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+	at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+	at com.q2o.suiteSFDC.ASSQuoteImport.assQuoteImport(ASSQuoteImport.java:21)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="assQuoteImport" time="0.06" classname="com.q2o.suiteSFDC.ASSQuoteImport">
+    <skipped/>
+  </testcase>
+</testsuite>

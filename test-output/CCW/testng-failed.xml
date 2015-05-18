@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CCW]">
+  <listeners>
+    <listener class-name="com.q2o.util.Listeners"/>
+  </listeners>
+  <test name="Behaviour Deal(failed)">
+    <classes>
+      <class name="com.q2o.suiteCCW.BehaviourDeal">
+        <methods>
+          <include name="behaviourDeal" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.q2o.suiteCCW.BehaviourDeal -->
+    </classes>
+  </test> <!-- Behaviour Deal(failed) -->
+  <test name="Global Deal(failed)">
+    <classes>
+      <class name="com.q2o.suiteCCW.GlobalDeal">
+        <methods>
+          <include name="globalDeal" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.q2o.suiteCCW.GlobalDeal -->
+    </classes>
+  </test> <!-- Global Deal(failed) -->
+  <test name="Local Deal(failed)">
+    <classes>
+      <class name="com.q2o.suiteCCW.LocalDeal">
+        <methods>
+          <include name="localDeal" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.q2o.suiteCCW.LocalDeal -->
+    </classes>
+  </test> <!-- Local Deal(failed) -->
+  <test name="Non-Behaviour Deal(failed)">
+    <classes>
+      <class name="com.q2o.suiteCCW.Non_BehaviourDeal">
+        <methods>
+          <include name="non_behaviourDeal" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.q2o.suiteCCW.Non_BehaviourDeal -->
+    </classes>
+  </test> <!-- Non-Behaviour Deal(failed) -->
+</suite> <!-- Failed suite [CCW] -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CCW">
+  <test name="Behaviour Deal" >
+    <classes>
+       <class name="com.q2o.suiteCCW.BehaviourDeal" />
+    </classes>
+  </test>
+ 
+  <test name="Global Deal">
+    <classes>
+      <class name="com.q2o.suiteCCW.GlobalDeal"/>
+    </classes>
+     </test>
+    
+    <test name="IronPort Deal">
+    <classes>
+      <class name="com.q2o.suiteCCW.IronPortDeal"/>
+    </classes>
+     </test>
+    
+     <test name="Local Deal">
+    <classes>
+      <class name="com.q2o.suiteCCW.LocalDeal"/>
+    </classes>
+     </test>
+    
+     <test name="Non-Behaviour Deal">
+    <classes>
+      <class name="com.q2o.suiteCCW.Non_BehaviourDeal"/>
+    </classes>
+     </test>
+    
+    
+  </suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="VINU" name="com.q2o.suiteSFDC.RNSDQuote" tests="2" failures="0" timestamp="18 May 2015 01:43:44 GMT" time="0.52" errors="0">
+  <testcase name="rnsdQuote" time="0.111" classname="com.q2o.suiteSFDC.RNSDQuote">
+    <skipped/>
+  </testcase>
+  <testcase name="rnsdQuote" time="0.277" classname="com.q2o.suiteSFDC.RNSDQuote">
+    <skipped/>
+  </testcase>
+</testsuite>

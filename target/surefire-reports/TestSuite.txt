@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 4, Errors: 0, Skipped: 13, Time elapsed: 168.486 sec <<< FAILURE!
+non_behaviourDeal(com.q2o.suiteCCW.Non_BehaviourDeal)  Time elapsed: 84.048 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Cisco.com Login Page> but was:<Problem loading page>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.q2o.base.TestBase.navigateCCW(TestBase.java:125)
+	at com.q2o.base.TestBase.ccwLogin(TestBase.java:379)
+	at com.q2o.suiteCCW.Non_BehaviourDeal.non_behaviourDeal(Non_BehaviourDeal.java:21)
+
+transactionalQuote(com.q2o.suiteSFDC.TransactionalQuote)  Time elapsed: 28.528 sec  <<< FAILURE!
+java.lang.AssertionError: Failure - No such Element presentopportunityTab_xpath
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.q2o.base.TestBase.element(TestBase.java:175)
+	at com.q2o.base.TestBase.click(TestBase.java:190)
+	at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+	at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+	at com.q2o.suiteSFDC.TransactionalQuote.transactionalQuote(TransactionalQuote.java:27)
+
+astQuoteImport(com.q2o.suiteSFDC.ASTQuoteImport)  Time elapsed: 24.306 sec  <<< FAILURE!
+java.lang.AssertionError: Failure - No such Element presentopportunityTab_xpath
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.q2o.base.TestBase.element(TestBase.java:175)
+	at com.q2o.base.TestBase.click(TestBase.java:190)
+	at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+	at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+	at com.q2o.suiteSFDC.ASTQuoteImport.astQuoteImport(ASTQuoteImport.java:20)
+
+assQuoteImport(com.q2o.suiteSFDC.ASSQuoteImport)  Time elapsed: 23.373 sec  <<< FAILURE!
+java.lang.AssertionError: Failure - No such Element presentopportunityTab_xpath
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.q2o.base.TestBase.element(TestBase.java:175)
+	at com.q2o.base.TestBase.click(TestBase.java:190)
+	at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+	at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+	at com.q2o.suiteSFDC.ASSQuoteImport.assQuoteImport(ASSQuoteImport.java:21)
+

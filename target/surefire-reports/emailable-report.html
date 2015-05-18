@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">Quoting Project</th></tr>
+<tr><th colspan="7">SFDC SUITE</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Transactional Deal</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">28.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">ASS Quote Import</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">23.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">AST Quote Import</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">24.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">RNSD  Deal</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">0.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">CCW</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Non-Behaviour Deal</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">84.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">IronPort Deal</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Local Deal</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">0.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Behaviour Deal</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">2.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Global Deal</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">0</td><td class="numi">0.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">0</td><td class="numi">0</td><td class="numi_attn">13</td><td class="numi_attn">4</td><td class="numi">165.8 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Quoting Project</th></tr>
+<tr><th colspan="4">SFDC SUITE</th></tr>
+<tr><th colspan="4">Transactional Deal &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.q2o.suiteSFDC.TransactionalQuote<td><a href="#m1"><b>transactionalQuote</b>  </a></td><td class="numi">1</td><td class="numi">28524</td></tr>
+<tr><th colspan="4">Transactional Deal &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.q2o.suiteSFDC.TransactionalQuote<td><a href="#m2"><b>transactionalQuote</b>  </a></td><td class="numi">1</td><td class="numi">141</td></tr>
+<tr><th colspan="4">ASS Quote Import &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.q2o.suiteSFDC.ASSQuoteImport<td><a href="#m3"><b>assQuoteImport</b>  </a></td><td class="numi">1</td><td class="numi">23372</td></tr>
+<tr><th colspan="4">ASS Quote Import &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.q2o.suiteSFDC.ASSQuoteImport<td><a href="#m4"><b>assQuoteImport</b>  </a></td><td class="numi">1</td><td class="numi">60</td></tr>
+<tr><th colspan="4">AST Quote Import &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.q2o.suiteSFDC.ASTQuoteImport<td><a href="#m5"><b>astQuoteImport</b>  </a></td><td class="numi">1</td><td class="numi">24305</td></tr>
+<tr><th colspan="4">AST Quote Import &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.q2o.suiteSFDC.ASTQuoteImport<td><a href="#m6"><b>astQuoteImport</b>  </a></td><td class="numi">1</td><td class="numi">86</td></tr>
+<tr><th colspan="4">RNSD  Deal &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.q2o.suiteSFDC.RNSDQuote<td><a href="#m7"><b>rnsdQuote</b>  </a></td><td class="numi">2</td><td class="numi">390</td></tr><tr class="skippedodd"><td><a href="#m8"><b>rnsdQuote</b>  </a></td><td class="numi">2</td><td class="numi">390</td></tr>
+<tr><th colspan="4">CCW</th></tr>
+<tr><th colspan="4">Non-Behaviour Deal &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.q2o.suiteCCW.Non_BehaviourDeal<td><a href="#m9"><b>non_behaviourDeal</b>  </a></td><td class="numi">1</td><td class="numi">84043</td></tr>
+<tr><th colspan="4">Non-Behaviour Deal &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.q2o.suiteCCW.Non_BehaviourDeal<td><a href="#m10"><b>non_behaviourDeal</b>  </a></td><td class="numi">1</td><td class="numi">130</td></tr>
+<tr><th colspan="4">Local Deal &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.q2o.suiteCCW.LocalDeal<td><a href="#m11"><b>localDeal</b>  </a></td><td class="numi">2</td><td class="numi">227</td></tr><tr class="skippedodd"><td><a href="#m12"><b>localDeal</b>  </a></td><td class="numi">2</td><td class="numi">227</td></tr>
+<tr><th colspan="4">Behaviour Deal &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.q2o.suiteCCW.BehaviourDeal<td><a href="#m13"><b>behaviourDeal</b>  </a></td><td class="numi">2</td><td class="numi">399</td></tr><tr class="skippedodd"><td><a href="#m14"><b>behaviourDeal</b>  </a></td><td class="numi">2</td><td class="numi">399</td></tr>
+<tr><th colspan="4">Global Deal &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="3">com.q2o.suiteCCW.GlobalDeal<td><a href="#m15"><b>globalDeal</b>  </a></td><td class="numi">3</td><td class="numi">524</td></tr><tr class="skippedodd"><td><a href="#m16"><b>globalDeal</b>  </a></td><td class="numi">3</td><td class="numi">524</td></tr><tr class="skippedodd"><td><a href="#m17"><b>globalDeal</b>  </a></td><td class="numi">3</td><td class="numi">524</td></tr>
+</table>
+<h1>Transactional Deal</h1>
+<a id="m1"></a><h2>com.q2o.suiteSFDC.TransactionalQuote:transactionalQuote</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=Y, BuyMethod=Cisco, DealName=SFDC_OPTY_1, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Failure - No such Element presentopportunityTab_xpath</p>
+org.testng.Assert.fail(Assert.java:89)
+<br/>at com.q2o.base.TestBase.element(TestBase.java:175)
+<br/>at com.q2o.base.TestBase.click(TestBase.java:190)
+<br/>at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+<br/>at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+<br/>at com.q2o.suiteSFDC.TransactionalQuote.transactionalQuote(TransactionalQuote.java:27)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.q2o.suiteSFDC.TransactionalQuote:transactionalQuote</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=hsakamot@cisco.com.mon, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=N, BuyMethod=Cisco, DealName=SFDC_OPTY_1, Competitor_2=Accton Technology, InstallBase=Not Transformative Networking (IBLM), Competitor_1=Acano, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :TransactionalQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteSFDC.TransactionalQuote.transactionalQuote(TransactionalQuote.java:22)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>ASS Quote Import</h1>
+<a id="m3"></a><h2>com.q2o.suiteSFDC.ASSQuoteImport:assQuoteImport</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=Y, BuyMethod=Cisco, ASPTQuoteType=AS-S, DealName=ASS_Quote_1, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, ASQuoteNumber=20150226-151341, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Failure - No such Element presentopportunityTab_xpath</p>
+org.testng.Assert.fail(Assert.java:89)
+<br/>at com.q2o.base.TestBase.element(TestBase.java:175)
+<br/>at com.q2o.base.TestBase.click(TestBase.java:190)
+<br/>at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+<br/>at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+<br/>at com.q2o.suiteSFDC.ASSQuoteImport.assQuoteImport(ASSQuoteImport.java:21)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.q2o.suiteSFDC.ASSQuoteImport:assQuoteImport</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=N, BuyMethod=Cisco, ASPTQuoteType=AS-S, DealName=ASS_Quote_2, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, ASQuoteNumber=20150226-151341, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :ASSQuoteImport - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteSFDC.ASSQuoteImport.assQuoteImport(ASSQuoteImport.java:16)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>AST Quote Import</h1>
+<a id="m5"></a><h2>com.q2o.suiteSFDC.ASTQuoteImport:astQuoteImport</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=Y, BuyMethod=Cisco, ASPTQuoteType=AS-T, DealName=AST_Quote_1, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, ASQuoteNumber=20141105-8743.1-AS-T, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Failure - No such Element presentopportunityTab_xpath</p>
+org.testng.Assert.fail(Assert.java:89)
+<br/>at com.q2o.base.TestBase.element(TestBase.java:175)
+<br/>at com.q2o.base.TestBase.click(TestBase.java:190)
+<br/>at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+<br/>at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+<br/>at com.q2o.suiteSFDC.ASTQuoteImport.astQuoteImport(ASTQuoteImport.java:20)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.q2o.suiteSFDC.ASTQuoteImport:astQuoteImport</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=N, BuyMethod=Cisco, ASPTQuoteType=AS-T, DealName=ASS_Quote_2, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, ASQuoteNumber=20141105-8743.1-AS-T, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :ASTQuoteImport - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteSFDC.ASTQuoteImport.astQuoteImport(ASTQuoteImport.java:15)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>RNSD  Deal</h1>
+<a id="m7"></a><h2>com.q2o.suiteSFDC.RNSDQuote:rnsdQuote</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=N, BuyMethod=Cisco, ASPTQuoteType=AS-T, DealName=rnsd_2, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, ASQuoteNumber=20141105-8743.1-AS-T, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :RNSDQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteSFDC.RNSDQuote.rnsdQuote(RNSDQuote.java:21)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.q2o.suiteSFDC.RNSDQuote:rnsdQuote</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Browser=Mozilla, password=cisco123, userid=pasorge@cisco.com.qtr, Stage=1 - Prospect, Exp_Prod_Amt=1000.0, Exp_Ser_Amt=500.0, PriceList=Global Price List in US Dollars, DealCategory=Outsource, Account_Name=ABC Discount, URL=https://test.salesforce.com/, Result=, IntendedUse=Resale, Runmodes=N, BuyMethod=Cisco, ASPTQuoteType=AS-S, DealName=rnsd_1, Competitor_2=A10 Networks, InstallBase=Not Transformative Networking (IBLM), Competitor_1=8x8, ASQuoteNumber=20150226-151346, Partner_Company=ALEXANDER OPEN SYSTEMS, INC, Forcasting_Position=GTAM GOTHAM CITY TERRITORY PL pasorge}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :RNSDQuote - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteSFDC.RNSDQuote.rnsdQuote(RNSDQuote.java:21)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Non-Behaviour Deal</h1>
+<a id="m9"></a><h2>com.q2o.suiteCCW.Non_BehaviourDeal:non_behaviourDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=non_behav_deal_1, userid=emily-culp, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=Y, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Mozilla, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>expected:&lt;Cisco.com Login Page&gt; but was:&lt;Problem loading page&gt;</p>
+org.testng.Assert.fail(Assert.java:89)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:489)
+<br/>at org.testng.Assert.assertEquals(Assert.java:118)
+<br/>at org.testng.Assert.assertEquals(Assert.java:171)
+<br/>at org.testng.Assert.assertEquals(Assert.java:181)
+<br/>at com.q2o.base.TestBase.navigateCCW(TestBase.java:125)
+<br/>at com.q2o.base.TestBase.ccwLogin(TestBase.java:379)
+<br/>at com.q2o.suiteCCW.Non_BehaviourDeal.non_behaviourDeal(Non_BehaviourDeal.java:21)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.q2o.suiteCCW.Non_BehaviourDeal:non_behaviourDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=non_behav_deal_2, userid=jgose, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Chrome, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :Non_BehaviourDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.Non_BehaviourDeal.non_behaviourDeal(Non_BehaviourDeal.java:17)
+<br/>36 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>IronPort Deal</h1>
+<h1>Local Deal</h1>
+<a id="m11"></a><h2>com.q2o.suiteCCW.LocalDeal:localDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=local_deal_2, userid=jgose, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Mozilla, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :LocalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.LocalDeal.localDeal(LocalDeal.java:19)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.q2o.suiteCCW.LocalDeal:localDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=local_deal_1, userid=emily-culp, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Mozilla, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :LocalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.LocalDeal.localDeal(LocalDeal.java:19)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Behaviour Deal</h1>
+<a id="m13"></a><h2>com.q2o.suiteCCW.BehaviourDeal:behaviourDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=behaviuorDeal_2, userid=jgose, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Chrome, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :BehaviourDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.BehaviourDeal.behaviourDeal(BehaviourDeal.java:20)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>com.q2o.suiteCCW.BehaviourDeal:behaviourDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=behaviuorDeal_1, userid=emily-culp, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Mozilla, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :BehaviourDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.BehaviourDeal.behaviourDeal(BehaviourDeal.java:20)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Global Deal</h1>
+<a id="m15"></a><h2>com.q2o.suiteCCW.GlobalDeal:globalDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=global_deal_1, userid=emily-culp, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Mozilla, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :GlobalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.GlobalDeal.globalDeal(GlobalDeal.java:14)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>com.q2o.suiteCCW.GlobalDeal:globalDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=global_deal_2, userid=imdisti, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Mozilla, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :GlobalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.GlobalDeal.globalDeal(GlobalDeal.java:14)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>com.q2o.suiteCCW.GlobalDeal:globalDeal</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">{Result=, BuyMethod=Cisco, DealName=global_deal_2, userid=jgose, PriceList=Global Price List in US Dollars, CAM=Glennis Walker (glwalker), URL=https://tools-stage-was7.cisco.com/ys2wsp/home, Runmodes=N, IntendedUse=Resale, password=Y2lzY28xMjM=, Browser=Mozilla, DealCategory=Outsource}</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Skipping test :GlobalDeal - becuase  Run Mode of Either test Suite ,Test Case or Data are Set as No</p>
+com.q2o.base.TestBase.validateRunmodes(TestBase.java:77)
+<br/>at com.q2o.suiteCCW.GlobalDeal.globalDeal(GlobalDeal.java:14)
+<br/>36 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

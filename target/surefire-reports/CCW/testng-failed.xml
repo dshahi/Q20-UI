@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [CCW]">
+  <listeners>
+    <listener class-name="com.q2o.util.Listeners"/>
+  </listeners>
+  <test name="Non-Behaviour Deal(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteCCW.Non_BehaviourDeal">
+        <methods>
+          <include name="non_behaviourDeal" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Local Deal(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteCCW.LocalDeal">
+        <methods>
+          <include name="localDeal" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Behaviour Deal(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteCCW.BehaviourDeal">
+        <methods>
+          <include name="behaviourDeal" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Global Deal(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteCCW.GlobalDeal">
+        <methods>
+          <include name="globalDeal" invocation-numbers="0 1 2"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

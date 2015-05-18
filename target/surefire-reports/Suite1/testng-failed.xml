@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="CCW(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.test.NewTest">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

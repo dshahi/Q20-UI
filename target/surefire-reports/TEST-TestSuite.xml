@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="17" failures="4" name="TestSuite" time="162.208" errors="0" skipped="13">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="MyMavenBuild"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Vinita\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="45f3ed6bada16d47"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_31\lib\resources.jar;C:\Program Files\Java\jre1.8.0_31\lib\rt.jar;C:\Program Files\Java\jre1.8.0_31\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_31\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_31\lib\jce.jar;C:\Program Files\Java\jre1.8.0_31\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_31\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_31\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\Vinita\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_31-b13"/>
+    <property name="ANT_HOME" value="C:\Users\Vinita\Desktop\Selenium_Material\apache-ant-1.9.4-bin\apache-ant-1.9.4"/>
+    <property name="user.name" value="Vinita"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_31\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Vinita\AppData\Local"/>
+    <property name="java.version" value="1.8.0_31"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="Vinita"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_31\lib\endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_31"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.3"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="TMP" value="C:\Users\Vinita\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.31-b07"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="VINU"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_31"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Vinita"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="COMPUTERNAME" value="VINU"/>
+    <property name="user.script" value=""/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\Users\Vinita"/>
+    <property name="BUILD_TAG" value="jenkins-MyMavenBuild-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="45f3ed6bada16d47"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Vinita"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5\bin;C:\Program Files (x86)\Skype\Phone;C:\Users\Vinita\Desktop\Selenium_Material\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Program Files (x86)\Skype\Phone\;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Vinita\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5"/>
+    <property name="java.class.path" value="C:\Users\Vinita\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5\boot\plexus-classworlds-2.5.2.jar;C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5 C:\Users\Vinita\.jenkins\war\WEB-INF\lib\remoting-2.51.jar C:\Users\Vinita\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\Vinita\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 63228"/>
+    <property name="Path" value="C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5\bin;C:\Program Files (x86)\Skype\Phone;C:\Users\Vinita\Desktop\Selenium_Material\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Program Files (x86)\Skype\Phone\"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vinita\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Vinita\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MyMavenBuild/1/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_31\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Vinita\Desktop\mvn\DataDrivenFrameWork"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/MyMavenBuild/"/>
+    <property name="LOGONSERVER" value="\\MicrosoftAccount"/>
+    <property name="USERDOMAIN" value="VINU"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\Vinita\Desktop\Selenium_Material\apache-maven-3.2.5"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\Vinita\Desktop\Selenium_Material\Jenkin"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Vinita\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Vinita\.jenkins\jobs\MyMavenBuild\workspace"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Vinita\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase classname="com.q2o.suiteCCW.BehaviourDeal" name="behaviourDeal" time="0.275">
+    <skipped/>
+    <system-out>Start Executing  : behaviourDeal
+</system-out>
+    <system-err>log4j:ERROR setFile(null,false) call failed.
+java.io.FileNotFoundException: C:\Users\dshahi\Desktop\mvn\DataDrivenFrameWork\Logs\Application.log (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+	at java.io.FileOutputStream.&lt;init&gt;(Unknown Source)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:580)
+	at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:526)
+	at org.apache.log4j.LogManager.&lt;clinit&gt;(LogManager.java:127)
+	at org.apache.log4j.Logger.getLogger(Logger.java:104)
+	at com.q2o.base.TestBase.&lt;clinit&gt;(TestBase.java:42)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:28)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:372)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:284)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:109)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:181)
+	at org.testng.internal.TestNGClassFinder.&lt;init&gt;(TestNGClassFinder.java:120)
+	at org.testng.TestRunner.initMethods(TestRunner.java:402)
+	at org.testng.TestRunner.init(TestRunner.java:228)
+	at org.testng.TestRunner.init(TestRunner.java:198)
+	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:147)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:525)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:156)
+	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:110)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1235)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1222)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1074)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.BehaviourDeal" name="behaviourDeal" time="0.118">
+    <skipped/>
+    <system-out>Skipped TC : behaviourDeal
+Start Executing  : behaviourDeal
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.GlobalDeal" name="globalDeal" time="0.145">
+    <skipped/>
+    <system-out>Skipped TC : behaviourDeal
+Start Executing  : globalDeal
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.GlobalDeal" name="globalDeal" time="0.156">
+    <skipped/>
+    <system-out>Skipped TC : globalDeal
+Start Executing  : globalDeal
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.GlobalDeal" name="globalDeal" time="0.221">
+    <skipped/>
+    <system-out>Skipped TC : globalDeal
+Start Executing  : globalDeal
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.LocalDeal" name="localDeal" time="0.089">
+    <skipped/>
+    <system-out>Skipped TC : globalDeal
+Start Executing  : localDeal
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.LocalDeal" name="localDeal" time="0.129">
+    <skipped/>
+    <system-out>Skipped TC : localDeal
+Start Executing  : localDeal
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.Non_BehaviourDeal" name="non_behaviourDeal" time="84.048">
+    <failure message="expected:&lt;Cisco.com Login Page&gt; but was:&lt;Problem loading page&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;Cisco.com Login Page&gt; but was:&lt;Problem loading page&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.q2o.base.TestBase.navigateCCW(TestBase.java:125)
+	at com.q2o.base.TestBase.ccwLogin(TestBase.java:379)
+	at com.q2o.suiteCCW.Non_BehaviourDeal.non_behaviourDeal(Non_BehaviourDeal.java:21)
+</failure>
+    <system-out>Skipped TC : localDeal
+Start Executing  : non_behaviourDeal
+</system-out>
+    <system-err>log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+</system-err>
+  </testcase>
+  <testcase classname="com.q2o.suiteCCW.Non_BehaviourDeal" name="non_behaviourDeal" time="0.137">
+    <skipped/>
+    <system-out>Failed TC : non_behaviourDeal
+Start Executing  : non_behaviourDeal
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.RNSDQuote" name="rnsdQuote" time="0.112">
+    <skipped/>
+    <system-out>Skipped TC : non_behaviourDeal
+Start Executing  : rnsdQuote
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.RNSDQuote" name="rnsdQuote" time="0.278">
+    <skipped/>
+    <system-out>Skipped TC : rnsdQuote
+Start Executing  : rnsdQuote
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.TransactionalQuote" name="transactionalQuote" time="28.528">
+    <failure message="Failure - No such Element presentopportunityTab_xpath" type="java.lang.AssertionError">java.lang.AssertionError: Failure - No such Element presentopportunityTab_xpath
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.q2o.base.TestBase.element(TestBase.java:175)
+	at com.q2o.base.TestBase.click(TestBase.java:190)
+	at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+	at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+	at com.q2o.suiteSFDC.TransactionalQuote.transactionalQuote(TransactionalQuote.java:27)
+</failure>
+    <system-out>Skipped TC : rnsdQuote
+Start Executing  : transactionalQuote
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.TransactionalQuote" name="transactionalQuote" time="0.146">
+    <skipped/>
+    <system-out>Failed TC : transactionalQuote
+Start Executing  : transactionalQuote
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.ASTQuoteImport" name="astQuoteImport" time="24.306">
+    <failure message="Failure - No such Element presentopportunityTab_xpath" type="java.lang.AssertionError">java.lang.AssertionError: Failure - No such Element presentopportunityTab_xpath
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.q2o.base.TestBase.element(TestBase.java:175)
+	at com.q2o.base.TestBase.click(TestBase.java:190)
+	at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+	at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+	at com.q2o.suiteSFDC.ASTQuoteImport.astQuoteImport(ASTQuoteImport.java:20)
+</failure>
+    <system-out>Skipped TC : transactionalQuote
+Start Executing  : astQuoteImport
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.ASTQuoteImport" name="astQuoteImport" time="0.087">
+    <skipped/>
+    <system-out>Failed TC : astQuoteImport
+Start Executing  : astQuoteImport
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.ASSQuoteImport" name="assQuoteImport" time="23.373">
+    <failure message="Failure - No such Element presentopportunityTab_xpath" type="java.lang.AssertionError">java.lang.AssertionError: Failure - No such Element presentopportunityTab_xpath
+	at org.testng.Assert.fail(Assert.java:89)
+	at com.q2o.base.TestBase.element(TestBase.java:175)
+	at com.q2o.base.TestBase.click(TestBase.java:190)
+	at com.q2o.base.TestBase.clickAndWaitForElement(TestBase.java:250)
+	at com.q2o.base.TestBase.createSFDCOpty(TestBase.java:538)
+	at com.q2o.suiteSFDC.ASSQuoteImport.assQuoteImport(ASSQuoteImport.java:21)
+</failure>
+    <system-out>Skipped TC : astQuoteImport
+Start Executing  : assQuoteImport
+</system-out>
+  </testcase>
+  <testcase classname="com.q2o.suiteSFDC.ASSQuoteImport" name="assQuoteImport" time="0.06">
+    <skipped/>
+    <system-out>Failed TC : assQuoteImport
+Start Executing  : assQuoteImport
+</system-out>
+  </testcase>
+</testsuite>

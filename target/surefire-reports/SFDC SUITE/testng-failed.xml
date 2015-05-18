@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SFDC SUITE]">
+  <listeners>
+    <listener class-name="com.q2o.util.Listeners"/>
+  </listeners>
+  <test name="Transactional Deal(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteSFDC.TransactionalQuote">
+        <methods>
+          <include name="transactionalQuote" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="ASS Quote Import(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteSFDC.ASSQuoteImport">
+        <methods>
+          <include name="assQuoteImport" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="AST Quote Import(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteSFDC.ASTQuoteImport">
+        <methods>
+          <include name="astQuoteImport" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="RNSD  Deal(failed)" preserve-order="false">
+    <classes>
+      <class name="com.q2o.suiteSFDC.RNSDQuote">
+        <methods>
+          <include name="rnsdQuote" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

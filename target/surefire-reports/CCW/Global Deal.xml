@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="VINU" name="com.q2o.suiteCCW.GlobalDeal" tests="3" failures="0" timestamp="18 May 2015 01:42:19 GMT" time="0.601" errors="0">
+  <testcase name="globalDeal" time="0.147" classname="com.q2o.suiteCCW.GlobalDeal">
+    <skipped/>
+  </testcase>
+  <testcase name="globalDeal" time="0.158" classname="com.q2o.suiteCCW.GlobalDeal">
+    <skipped/>
+  </testcase>
+  <testcase name="globalDeal" time="0.219" classname="com.q2o.suiteCCW.GlobalDeal">
+    <skipped/>
+  </testcase>
+</testsuite>

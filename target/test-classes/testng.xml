@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Quoting Project">
+
+  <listeners>
+    <listener class-name="com.q2o.util.Listeners"/>
+  </listeners>
+  
+<suite-files>
+  <suite-file path="./suiteCCW.xml"/>
+  <suite-file path="./suiteSFDC.xml"/>
+</suite-files>
+
+
+</suite>
+

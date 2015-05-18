@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SFDC SUITE]">
+  <listeners>
+    <listener class-name="com.q2o.util.Listeners"/>
+  </listeners>
+  <test name="RNSD  Deal(failed)">
+    <classes>
+      <class name="com.q2o.suiteSFDC.RNSDQuote">
+        <methods>
+          <include name="rnsdQuote" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.q2o.suiteSFDC.RNSDQuote -->
+    </classes>
+  </test> <!-- RNSD  Deal(failed) -->
+  <test name="Transactional Deal(failed)">
+    <classes>
+      <class name="com.q2o.suiteSFDC.TransactionalQuote">
+        <methods>
+          <include name="transactionalQuote" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.q2o.suiteSFDC.TransactionalQuote -->
+    </classes>
+  </test> <!-- Transactional Deal(failed) -->
+  <test name="AST Quote Import(failed)">
+    <classes>
+      <class name="com.q2o.suiteSFDC.ASTQuoteImport">
+        <methods>
+          <include name="astQuoteImport" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.q2o.suiteSFDC.ASTQuoteImport -->
+    </classes>
+  </test> <!-- AST Quote Import(failed) -->
+  <test name="ASS Quote Import(failed)">
+    <classes>
+      <class name="com.q2o.suiteSFDC.ASSQuoteImport">
+        <methods>
+          <include name="assQuoteImport" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.q2o.suiteSFDC.ASSQuoteImport -->
+    </classes>
+  </test> <!-- ASS Quote Import(failed) -->
+</suite> <!-- Failed suite [SFDC SUITE] -->
